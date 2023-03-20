@@ -1,0 +1,121 @@
+.similar-job-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid green;
+  height: 400px;
+  width: 300px;
+  margin-right: 30px;
+  padding: 20px;
+  background-color: #272727;
+  border-radius: 12px;
+}
+
+.similar-job-logo-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-bottom: 20px;
+}
+
+.similar-job-company-logo {
+  width: 65px;
+  height: 65px;
+  margin-right: 20px;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.similar-job-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.similar-job-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40px;
+  height: 25px;
+}
+
+.similar-job-rating-star {
+  height: 20px;
+  width: 20px;
+  color: orange;
+}
+
+.similar-job-rating {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.similar-card-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.similar-job-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.similar-job-location-emp-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  height: 36px;
+}
+
+.similar-job-location-icon {
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.similar-job-location {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 38px;
+}
+
+.similar-job-briefcase-icon {
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.similar-job-emp-type {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+}

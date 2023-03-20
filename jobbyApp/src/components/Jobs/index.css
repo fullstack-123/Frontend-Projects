@@ -1,0 +1,256 @@
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #bfbfbf;
+  height: 40px;
+  width: 60%;
+  border-radius: 6px;
+}
+
+.search-input {
+  width: 90%;
+  height: 39px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.search-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 38px;
+  width: 50px;
+  background: #272727;
+  border-radius: 6px;
+}
+
+.search-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 39px;
+  width: 49px;
+}
+
+.search-icon {
+  height: 24px;
+  width: 24px;
+  color: #ffffff;
+}
+
+.jobs-list-container {
+  padding-left: 0px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.render-profile-details-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-size: cover;
+  width: 300px;
+  min-height: 200px;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 40px;
+  margin-bottom: 5px;
+}
+
+.profile-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #b6c5ff;
+  margin-top: 0px;
+}
+
+.short-bio {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #7e858e;
+}
+
+.jobs-bg-container {
+  background-color: #000000;
+
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+}
+
+.jobs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1150px;
+  width: 98%;
+  margin: auto;
+}
+
+.jobs-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  align-self: flex-start;
+  width: 26%;
+}
+
+.jobs-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 68%;
+}
+
+.jobs-list-failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 68%;
+  margin: auto;
+
+  margin-top: 50px;
+}
+
+.jobs-failure-view-img {
+  width: 460px;
+  height: 380px;
+}
+
+.profile-details-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+  width: 300px;
+}
+
+.profile-profile-btn {
+  width: 140px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 8px;
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.jobs-failure-heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.jobs-failure-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.jobs-retry-btn {
+  width: 100px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.no-jobs-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.no-jobs-img {
+  width: 460px;
+  height: 380px;
+  margin-right: 30px;
+}
+
+.no-jobs-heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.no-jobs-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.jobs-loader-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.profile-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}

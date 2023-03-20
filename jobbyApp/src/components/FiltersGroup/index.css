@@ -1,0 +1,95 @@
+.filters-group-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  background: #000000;
+
+  margin-top: 13px;
+}
+
+.emp-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.emp-list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 0px;
+
+  margin-bottom: 5px;
+}
+.salary-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.salary-list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding-left: 0px;
+}
+
+.emp-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.check-box {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.emp-label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 300;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.salary-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.radio {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.salary-label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 300;
+  color: #ffffff;
+  cursor: pointer;
+}
