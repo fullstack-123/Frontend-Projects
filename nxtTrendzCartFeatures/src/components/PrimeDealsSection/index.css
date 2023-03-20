@@ -1,0 +1,48 @@
+.prime-deals-failure-view-section {
+  max-width: 1110px;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.register-prime-img {
+  width: 100%;
+}
+
+.prime-products-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  max-width: 1110px;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.prime-products-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #171f46;
+}
+
+.prime-products-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 0px;
+}
+
+.prime-products-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 90%;
+  max-width: 1110px;
+  min-height: 60vh;
+}

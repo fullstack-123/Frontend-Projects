@@ -1,0 +1,38 @@
+.empty-cart-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.empty-cart-img {
+  height: 380px;
+  width: 360px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.empty-cart-heading {
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.shop-now-cart-btn {
+  width: 120px;
+  height: 38px;
+  padding: 8px;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,117 @@
+/* Write your CSS code here */
+.bg-container {
+  max-width: 1110px;
+  width: 90%;
+  margin: auto;
+  min-height: 100vh;
+  margin-top: 100px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-trendz-mobile-img {
+  max-width: 400px;
+  width: 80%;
+}
+
+@media screen and (min-width: 992px) {
+  .home-trendz-mobile-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .heading {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-family: 'Roboto';
+    font-size: 46px;
+    font-weight: 700;
+    color: #1e293b;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .description {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    color: #64748b;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .description {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 400;
+    color: #64748b;
+    line-height: 28px;
+  }
+}
+
+.shop-now-btn {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #0967d2;
+  width: 146px;
+  height: 42px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.home-trendz-img {
+  max-width: 456px;
+  width: 50%;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .home-trendz-img {
+    display: none;
+  }
+}
