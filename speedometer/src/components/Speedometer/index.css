@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1110px;
+  width: 100%;
+
+  margin: auto;
+  min-height: 100vh;
+}
+
+.speed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 900px;
+  background-color: #07080c;
+  height: 100vh;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 600;
+  color: #ffffff;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.speedometer-img {
+  width: 500px;
+  height: 250px;
+}
+
+.speed-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.speed-limit-description {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #cbd5e1;
+  margin-bottom: 25px;
+}
+
+.accelerate-btn {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 10px;
+  width: 130px;
+  height: 36px;
+  padding: 8px;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.break-btn {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #94a3b8;
+  border: 2px solid #94a3b8;
+  background: transparent;
+  width: 130px;
+  height: 36px;
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
