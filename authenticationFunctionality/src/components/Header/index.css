@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-top: 0px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.link-item {
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 15px;
+  color: blue;
+}
